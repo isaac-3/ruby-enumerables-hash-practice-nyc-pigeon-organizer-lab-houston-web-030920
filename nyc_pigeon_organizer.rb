@@ -13,8 +13,8 @@ def nyc_pigeon_organizer(data)
           final_hash[name][key] = []
         end
         final_hash[name][key] << value.to_s
-        pp 
-        # binding.pry
+        pp final_hash[name][key]
+        binding.pry
       end
     end
   end
